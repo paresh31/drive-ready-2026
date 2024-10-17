@@ -1,0 +1,1662 @@
+====================================================================================
+Day 1 :  10-06-2024
+====================================================================================
+
+http://thubhotspot.com/login?
+http://hotspot.aec.edu.in/radiusmanager/
+
+education.github.com
+create a new github account
+
+download and install gitbash
+
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+	-key is created in th folder location
+	 C:/Users/pares/.ssh
+		-two files will be there
+		-open id_ed25519.pub in notepad
+		-copy the content of the notepad 
+	-go to github 
+	-select new ssh key
+	-add description and paste the content that we have copied from the notpad file of the id_ed25519.pub
+	-click on the add key button
+
+	-goto the repo created and copy the ssh link (i.e., git@github.com:pareshmahato6141/dr-2026.git)
+	-goto gitbash
+	-type the command followed
+		git clone git@github.com:pareshmahato6141/dr-2026.git
+	-type yes (when it asks "Are you sure you want to continue connecting (yes/no/[fingerprint])?")
+
+	
+	-goto C:/Users/pares/
+	-a folder is created with name dr-2026 (location : C:/Users/pares/dr-2026)
+	-create a new txt file (say "newdoc.txt")
+	-add some text in the txt file
+
+	-goto gitbash and run the following codes
+		paresh@ASUS MINGW64 ~
+		$ pwd
+		/c/Users/pares
+
+		paresh@ASUS MINGW64 ~
+		$ cd dr-2026
+
+		paresh@ASUS MINGW64 ~/dr-2026 (main)
+		$ pwd
+		/c/Users/pares/dr-2026
+
+		paresh@ASUS MINGW64 ~/dr-2026 (main)
+		$ git status
+		On branch main
+
+		No commits yet
+
+		Untracked files:
+		(use "git add <file>..." to include in what will be committed)
+				newdoc.txt
+
+		nothing added to commit but untracked files present (use "git add" to track)
+
+		***newdoc.txt will be in red color***
+
+
+
+        paresh@ASUS MINGW64 ~/dr-2026 (main)
+        $ git add newdoc.txt
+
+        paresh@ASUS MINGW64 ~/dr-2026 (main)
+        $ git status
+        On branch main
+
+        No commits yet
+
+        Changes to be committed:
+        (use "git rm --cached <file>..." to unstage)
+                new file:   newdoc.txt
+
+        ***now the newdoc.txt will be in green color***
+
+
+        paresh@ASUS MINGW64 ~/dr-2026 (main)
+        $ git commit -m "adding bug fix"
+        [main (root-commit) ea6f1b8] adding bug fix
+        1 file changed, 1 insertion(+)
+        create mode 100644 newdoc.txt
+
+        paresh@ASUS MINGW64 ~/dr-2026 (main)
+        $ git push
+        Enumerating objects: 3, done.
+        Counting objects: 100% (3/3), done.
+        Writing objects: 100% (3/3), 256 bytes | 256.00 KiB/s, done.
+        Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+        To github.com:pareshmahato6141/dr-2026.git
+        * [new branch]      main -> main
+
+
+    -goto github goto dr-2026 
+    -there the file newdoc.txt will be added
+    -open the newdoc.txt we will find the code written in the notepad.
+
+
+====================================================================================
+Day 2 :  10-06-2024
+====================================================================================
+https://awsacademy.instructure.com/
+https://awsacademy.instructure.com/
+https://awsacademy.instructure.com/courses/84903
+
+Some basic commands:
+	-devmgmt.msc
+	-msinfo32
+	-diskmgmt.msc
+	-dxdiag
+
+
+====================================================================================
+Day 3 :  12-06-2024
+====================================================================================
+
+OS Components:
+	Shell - graphical user interface (GUI), command line interface (CLI), PowerShell(this shell is generally used by developers)
+	kernel - hardware - source code
+
+layers of operating syytem:
+	 ---------------------------
+	|	        user            |
+	|	         ↕              |
+	|	application software    |
+	|	         ↕              |
+	|	  operating system      |
+	|	         ↕              |
+	|	      hardware          |
+	 ---------------------------
+Two types of Operating System are:
+	closed source - windows, mac, ios, unix
+	open source - linux, android
+
+Hardware
+	motherboard: (CPU & RAM, Storage, network) resources
+
+Types of Operating system bases on usage requirement:
+	Mobile OS: android, apple iosm tyze, java
+	Desktop OS: windows, macOS
+	Server OS: windows server, RHEL, ubuntu server, unix
+	Security OS: Kali Linux, Parrot Linux, Sans
+	Network OS: cisco os, F5 os.
+
+Servers and clients
+
+	Centralized management
+	Security
+	Avaliability [99.999999999 (11 9s) (1second in 5 yeaars)]
+	0 Downtime
+	Scalability
+	Reliability
+	
+
+
+
+Books for english improvement:
+	You can win
+	half girlfriend
+	alchemist
+	the monk who sold his farrari
+	wings of fire
+
+
+====================================================================================
+Day 5 :  14-06-2024
+====================================================================================
+
+-Linux OS is an open source operating system, we can access  the source code of the linux operating system and we can modify,
+change or add new features and publish our operating system.
+-Linus dosent provide any official support but community support is there for your queries.
+-Why Linux ---> because Linux is used everywhere and open source.
+
+
+-goto your awsacadamy account via the link ---> https://awsacademy.instructure.com/
+	account id : 576630925924
+	voclabs/user3331064=PARESH_KUMAR_MAHATO
+
+
+
+
+In AWS acedemy
+	-goto console
+	-in console search ec2 and click on ec2 
+	-scroll down and click on lauch instance
+	-it will ask for name so give any name as per you wish
+	-select aws linux which is by-default selected
+	-key-pair--->click on the create a new key pair--->give the key-pair (e.g., your roll number)
+	-the key-pair will be downloaded
+	-goto network settings ---> default
+	-lauch instance
+	-it will say success
+	-click on the instances we can see linux server is created
+
+
+
+Download mobaxterm software (say portable version)
+Download putty
+
+	-launch the mobaxterm (MobaXterm_Personal_24.1.exe)
+	-ontop left corner click on the session
+	-click on SSH
+	-go to aws in browser
+	-select the server created and copy the public ipv4 address and paste it into the mobaxterm remotehost field
+	-goto connect option located on the top and beside of instances
+	-click on SSH clients
+	-copy the text before @ (in this case, ec2-user)
+	-come to mobaxterm and paste the copied text into the specify username field
+	-click on advance ssh settings
+	-checkmark the box use private key
+	-click on the blue icon in the field
+	-select the downloaded private key which we have downloaded while creating a key-pair 
+	-click on ok button
+	-click accept button
+	-it will display Amazon Linux 2023.
+
+
+	  ,     #_
+   ~/_  ####_        Amazon Linux 2023
+  ~~  /_#####/
+  ~~     /###|
+  ~~       /#/ ___   https://aws.amazon.com/linux/amazon-linux-2023
+   ~~       V~' '->
+    ~~~         /
+      ~~._.   _/
+         _/ _/
+       _/m/'
+
+	   
+
+tyes of shells
+sh -> shell
+bash -> bourne again shell
+k shell
+z shell
+c shell
+
+when we see $ symbol in the bash that means we are logged into the bash with standard accouont user 
+means we can perform limited operations.
+
+
+1. clear : this command is used to clear the screen
+2. sudo su : used as root user (# symbol)
+				# symbol means we are root user
+3. exit : used to return into standard user ($ symbol)
+4. ls : used to view the list of directory
+5. pwd : print working directory (e.g., /home/ec2-user)
+6. cat > filename : creat a file
+					enter the content of the file
+					press ctrl+z to stop and save the file.
+					cat file1 file2 > file3 : this will copy all the content from the file1 and file2 and paste in the file3.
+7. cat filename : (concatenate)to view/read the content of the file
+8. cat >> filename : to add content in an existing file
+						press ctrl+z to save the file
+						if we create a new file with the name of the existing file name then the new file will replace the old file.
+9. ls -l : gives the details of the file (like when it is created, who created the file, what permissions have the file)
+10. la -la : used to show hidden files.
+				if starting with d then it is a directory
+				if starting with -(minus) then it is a file
+11. mkdir dir_name : create a new directory
+12. cd dir_name : change directory
+					multiple directory changing with slash(/) [e.g., cd college/cse/aiml/section-a]
+13. cd .. : move to the previous directory.
+14. rm filename : remove a file (y for yes, n for no)
+15. rm -r dir_name : remove a directory (y for yes, n for no)
+16. rm -rf dir_name : remove whole directory including the all sub files.
+17. man command_name : used to give information of the command_name.
+					   history : used to view the history of the commands used in the terminal.
+18. touch file_name : used to create an empty file.
+					we can create multiple files at a same time
+					(e.g., touch file1 file2 file3 file4. This will create five files)
+					if we want to creat an empty file with the name of existing empty file then only the time creation of the file will be changed.
+19. cp file1 file2 : content of the file1 will be copied to the file2. here the file1 and file2 are in the same directory.
+	if we want to copy the file1 into another directory then
+	cp file1 direcory_name (same directory)
+	cp file2 /home/ec2-user/dir1 (another directory)
+	**(cp /path/to/source/file /path/to/destination/directory :copy file from one directory to another directory)**
+20. mv file_name : used to move a file. (renames the file if the the command if is performed in the same directory)
+21. uname : linux (print system information)
+22. yum update : check for any update is available, if available the it will automatically update.
+
+Editing tools in Linux:
+vi (Visual Editor) : older
+vim ( Vi IMproved) :latest
+nano : latest
+
+23. vim file_name : this open the file in read only mode
+					press i on keyboard to insert or modify the data of the file.
+					press esc on keyboard to exit from the insert mode.
+					press :wq to save and exit the file.
+					press :q! to exit without saving the file.
+					vim is used in server side for editing.
+24. nano filename : this will open the file in the text Editor.
+					modify the content of the file, use arrow keys to switch between the lines.
+					press ctrl+o to write out(save)
+					file name to write: file_name.
+							change the file name if you want to save the changes and save it as another file.
+					press enter.
+					press ctrl+x to exit the file.
+
+
+/etc : This directory contains the configuration files that are required by the installed programs.
+25. ls -l | more : command lists the directory contents in a detailed format
+				press ctrl+c to terminate any process.
+26. cat passwd : brief description of the users.(/etc/cat passwd)
+27. whoami : print the current user name.(/etc/cat whoami)
+28. cat shadow : password related information.(/etc/cat shadow)
+29. cat group : group related information.(/etc/cat group)
+30. date : give information of the current time
+    cal : five information of the calander
+	cal month_name : give info of a particular month_name
+	timedatectl : detail information about the  time
+31. head -n 2 passwd : gives the first 2 lines.
+32. tail -n 2 passwd : gives the last 2 lines.
+33. useradd : used to add an user.
+34. userdel : used to delete an user.
+
+
+
+===============================================================================
+19-06-2024
+===============================================================================
+website
+
+4. user (design)
+3. application (webserver application) aoache, node, react, google fultter
+2. os (server versoin)
+1. hardware ( memory, storage, cpu)
+
+example : cloudkitchen.com
+content (cloudkitchen)
+web server application
+ubuntu server latest version
+hardare (16gb , 2tb, 10cores)
+
+it may be physical or virtual server
+physical server : dell, hp, lenovo (on-premise)
+virtual server : aws, azure, google cloud (cloud server)
+
+example : email server
+emails
+application (email server)
+os server
+hardware
+
+example : IP server
+IPs
+application (IP server)
+os server
+hardware
+
+lms server (learning management server)
+content
+lms application (moodle)
+os server 
+hardware
+
+example : amazon premise
+videos
+ott application
+os 
+hardware
+
+
+
+r ---> read
+w ---> write
+x ---> execute
+
+35. chmod : used to change the permissions
+			e.g., chmod u-w file_name (removing write permission from user u)
+			e.g., chmod u+w file_name (adding write permission from user u)
+
+			user	group	others
+			rwx     rwx     rwx
+			
+[ec2-user@ip-172-31-85-39 dir]$ ls -l
+total 4
+-rw-r--r--. 1 ec2-user ec2-user 15 Jun 19 08:52 file
+[ec2-user@ip-172-31-85-39 dir]$ sudo su
+[root@ip-172-31-85-39 dir]# chmod u-w file
+[root@ip-172-31-85-39 dir]# ls -l
+total 4
+-r--r--r--. 1 ec2-user ec2-user 15 Jun 19 08:52 file
+	>>>>> here we can see that the write permission of the file from the user is removed <<<<<
+	>>>>> let us switch as ec2-user and try to write in the file <<<<<
+[root@ip-172-31-85-39 dir]# su ec2-user
+[ec2-user@ip-172-31-85-39 dir]$ cat >> file
+bash: file: Permission denied
+	>>>>> here we can see that the permission is denied. <<<<<
+
+
+cloud characteristics:
+1. on-demand self-service
+2. broad network access
+3. resource pooling
+4. rapid elasticity
+5. measured service
+
+nist : national institute of standards and technology
+
+Topics covered : 
+Operating System
+Server client
+virtualization
+Linux
+Cloud Computing
+
+
+CLOUD SERVICES
+
+cloud service provider
+
+1. IaaS - Infrastructure as a Service
+   * provides virtualized computing resources over the internet
+   * provides users with virtualized computing resources such as servers, storage, and networking
+   * examples: AWS, Azure, Google Cloud Platform
+
+2. PaaS - Platform as a Service
+   * provides a complete development and deployment environment for applications
+   * provides users with tools, libraries, and infrastructure required to build, test, and deploy applications
+   * examples: Heroku, Google App Engine, AWS Elastic Beanstalk
+
+3. SaaS - Software as a Service
+   * provides software applications over the internet
+   * provides users with access to software applications without the need for installation, configuration, and maintenance
+   * examples: Microsoft Office 365, Salesforce, Google Workspace
+
+permission in numeric format
+r - 4
+w - 2
+x - 1
+chmod 777 file
+rwxrwxrwx
+chmod 600 file
+rw-------
+chmod 644 file
+rw-r--r--
+
+
+cloud deployment models:
+1. Public Cloud
+   * owned and operated by a third-party provider
+   * provides scalability, reliability, and on-demand access to a shared pool of computing resources
+   * examples: AWS, Azure, Google Cloud Platform
+2. Private Cloud
+   * owned and operated by a single organization
+   * provides a dedicated and isolated computing environment for a single organization
+   * examples: VMware, OpenStack, Microsoft Azure Stack
+3. Hybrid Cloud
+   * combines public and private cloud environments
+   * provides a flexible and scalable computing environment that integrates public and private cloud resources
+   * examples: AWS Outposts, Azure Stack, Google Cloud Anthos
+4. community cloud
+   * owned and operated by a group of organizations with shared interests
+   * provides a shared computing environment for a group of organizations with shared interests
+   * examples: NASA's Nebula, OpenStack, Rackspace
+
+
+AWS global infrastructure:
+
+1. Availability Zones (AZs)
+   * isolated locations within a region that provide redundant and fault-tolerant infrastructure. it contains two or more data centers.
+   minimum distance between two AZs should be 100km.
+   * each AZ is connected to other AZs in the region through low-latency networks
+
+2. Regions
+   * geographic locations around the world that contain two or more AZs
+   * each region is isolated from other regions and provides a separate and independent infrastructure.
+   * examples: US East (N. Virginia), US West (Oregon), EU (Frankfurt)
+   region --> AZs --> data centers --> physical resources --> data.
+
+3. Edge Locations
+   * locations around the world that cache frequently accessed content and provide low-latency access to AWS services
+   * examples: Content Delivery Network (CDN) locations, Amazon CloudFront edge locations
+
+
+Books to read for improving english
+think and grow rich.
+you can win.
+halfgirlfrind.
+the alchemist.
+the monk who sold his ferrari.
+
+
+low latency = high Avaliability
+high latency = low Avaliability
+
+virtual machine - virtual server
+ec2 instance - ecc (elastic compute cloud)
+ec2 instance type - t2.micro (free tier)
+ec2 instance type - t2.small (paid tier)
+
+login in cmd :
+go to the download location where you downloaded the key file, type cmd in the address bar, type the following code in the cmd.
+	ssh -i "keypair_name" "user_name"@"ip_address"
+	example:
+	ssh -i key.pem ubuntu@54.196.15.61
+	ssh -i key.pem ec2-user@54.196.15.61
+
+ssh protocol number is 22
+rdp - remote desktop protocol - 3389
+it require 
+username - administrator
+password - jNOKni87r5-fkt@Wx6QSBHKqgUN=ho7a (example)
+
+mstsc - ms terminal 
+
+
+THub feedbaack
+http://210.212.210.89:31/thubfeedback/
+passkey : 39476770
+
+
+
+	
+
+website --- webserver
+
+data - content
+security group - port no. 80 - http 
+webserver application
+os - amazon Linux
+hardware
+
+firstly update the linux os (using command yum update)
+then install the httpd package (using command yum install httpd)
+then start the httpd service (using command systemctl start httpd)
+
+cd /usr/share/httpd/noindex
+
+
+website --- webserver
+
+data - content
+cd /var/www/html/     (index.html will be there)
+sample wepage - public id
+security group - port no. 80 - 
+apache2 (apt-get-install apache2)
+os - ubuntu
+hardware
+
+update (apt-get update)
+install apache2 (apt-get install apache2)
+start apache2 (systemctl start apache2)
+
+remote connections
+RDP - 3389 - windows - secure (encrypted)
+SSH - 22 - Linux - secure (encrypted)
+TELNET - 23 - Linux - unsecured (plain text)
+SFTF - 22
+FTP - 21
+HTTP - 80 - (not secure) unencrypted
+HTTPS - 443 - (secure) encrypted
+
+
+
+using nginx
+/usr/share/nginx/html/
+	sudo apt update
+	sudo apt install nginx
+	sudo systemctl start nginx
+	sudo systemctl enable nginx
+
+	sudo systemctl status nginx
+	sudo systemctl restart nginx
+	sudo systemctl stop nginx
+	sudo systemctl reload nginx
+	
+	init 6 ---> restart
+	init 0 ---> shutdown
+
+
+
+
+in windows:
+
+iis - internet information service
+go to start and search server manager
+open server manager
+click on Add roles and features
+go to server roles
+check mark web server (iis)
+click add features
+click next-->next-->next-->install
+once installation completed click close
+C:/inetpub/wwwroot/
+delete the two files 
+create a new file with index.html 
+
+
+when we stop and start the virtual machnine then every time the public ip is changed.
+
+to get permanent public id we need to
+select the server
+go to ec2 dashboard
+click on elastic IPs
+check mark the server
+click on action button
+click on associate elastic ips
+chooose the instance
+choose private ip address
+check mark the box (Allow this Elastic IP address to be reassociated)
+click on associate elastic ips
+go to instances the elastic ip address is allocated
+
+
+Automating Apache Web Server : this will run all give give the commands automatically when we lauch an instance.
+
+-firstly start process of creating an instance normally like we usually do.
+-select ubuntu.
+-select http from network settings.
+-paste the following code in advance details > user data.
+#!/bin/bash
+sudo su
+apt-get update -y
+apt-get install apache2 -y
+systemctl start apache2
+
+
+---for automatically start a sercer with custom html page then
+
+#!/bin/bash
+sudo su
+apt-get update -y
+apt-get install apache2 -y
+systemctl start apache2
+chmod 777 /var/www/html
+rm 	/index.html
+touch /var/www/html/index.html
+echo "this is technical hub..." > /var/www/html/index.html
+systemctl start apache2
+
+---if you want to add custom html page with an existing default server page then
+
+#!/bin/bash
+chmod 777 /var/www/html
+rm /var/www/html/index.html
+touch /var/www/html/index.html
+echo "this is technical hub..." > /var/www/html/index.html
+systemctl start apache2
+
+
+
+
+
+Amazon Elastic Beanstalk : End-to-end web application management.
+--------------------------------------------------------------------------------------
+Amazon Elastic Beanstalk is a service for deploying and scaling web applications and services developed with Java, .
+NET, Node.js, PHP, Python, Ruby, Go, and Docker on familiar servers such as 
+Apache, Nginx, Passenger, and IIS. Elastic Beanstalk automatically handles the deployment,
+scaling, and management of the application environment. With Elastic Beanstalk, you don't need to worry
+about the infrastructure that runs your applications, so you can focus on the code. Elastic Beanstalk
+automatically handles the deployment, from code to running a highly scalable, load-balanced, and auto
+scaling application environment on AWS. You can use the Elastic Beanstalk console to deploy and manage your application
+
+
+for creating an environment refer to ---> Amazon Elastic Beanstalk Setup.pdf
+
+==========================================================================
+01-07-2024
+==========================================================================
+
+AWS VPC - Virtual Private Cloud:
+AWS VPC is a virtual network dedicated to your AWS account. It is logically isolated from other virtual
+networks in the AWS Cloud. You can launch your AWS resources, such as Amazon EC2 instances
+Amazon RDS DB instances, and load balancers in a VPC.
+
+network - communication
+protocol - rules
+
+ip addressing
+addresses - mac address
+			IPv4 address
+			IPv6 address
+ipconfig -> windows
+ifconfig -> linux
+ip addr show -> show
+getmac -> Media Access Control Address
+ipconfig /all -> all details of the device.
+ping google.com -> 
+tracert -> trace route
+
+IANA - Internet Assigned Number Authority
+ICMP - Internet Control Messaging protocol
+
+cisco packet trace - 64 bit
+
+IPv4 address - unique
+10.16.57.128 - 4 parts
+octates - 4 octates
+8bit.8bit.8bit.8bit - 32 bit 
+IPv4 - 32 binary system (0-255 . 0-255 . 0-255 . 0-255)
+minimum - 00000000.00000000.00000000.00000000 = 0.0.0.0
+maximum - 11111111.11111111.11111111.11111111 = 255.255.255.255
+
+10101010.11001100.01010101.11110000 = 170.204.85.240
+
+total number of IPv4 address available is 256*256*256*256 = 4,29,49,67,296
+
+IPv4 - 5 classes
+A - 0 - 127
+B - 128 - 191
+C - 192 - 223
+D - 224 - 239
+E - 240 - 255
+
+network is combination of multiple devices
+
+N - network
+H - host
+network is common and host keeps on changing
+N.H - 1st octate is network and 2nd octate is host
+N.H.H.H - 1st octate is network and 2nd octate is network
+3rd octate is host and 4th octate is host
+
+A class:
+1.0.0.0
+N.H.H.H
+1.0.0.2
+1.0.0.3
+1.0.0.4
+1.0.0.5
+...
+1.0.0.255
+1.0.1.0
+1.0.1.1
+1.0.1.2
+1.0.1.3
+...
+1.0.1.255
+1.0.2.0
+1.0.2.1
+...
+1.0.2.255
+...
+1.0.255.255
+...
+1.255.255.225
+total ip addresses (in network 1 of A class) obtain is = 256 * 256 * 256 = 1,67,77,216
+total ip addresses (in network 2 of A class) obtain is = 256 * 256 * 256 = 1,67,77,216
+total ip addresses (in network 3 of A class) obtain is = 256 * 256 * 256 = 1,67,77,216
+.....
+total ip addresses (in network 127 of A class) obtain is = 256 * 256 * 256 = 1,67,77,216
+
+total ip addresses (in  A class) obtain is = 256 * 256 * 256 * 127 = 2,13,07,06,432
+
+B class:
+128.0.0.0
+N.N.H.H
+128.0.0.1
+128.0.0.2
+128.0.0.3
+...
+128.0.0.255
+128.0.1.0
+128.0.1.1
+...
+128.0.1.255
+...
+128.0.255.255
+...
+128.1.0.0
+...
+128.1.255.255
+128.2.0.0 ...
+128.3.0.0 ...
+...
+128.255.255.255
+
+Host per network = 256 * 256 = 65,536
+last IP of B class is 191.255.255.255
+
+C class (192 - 223):
+192.0.0.0	
+N.N.N.H
+last IP in c class is 233.255.255.255
+third network in c class is 192.0.2
+
+Host per network = 256
+last network in C class is 233.255.255
+
+------------------------------------------------------------------
+Task:
+10th network in A class : 10.0
+260th IP address in 10th network : 10.0.1.3
+no. of hosts in 10th network : 256 * 256 * 256 = 1,67,77,216
+no. of networks in A class : 127
+
+5th network in B class : 128.4
+256 IP of fifth network : 128.4.0.255
+no. of hosts in fifth network : 256 * 256 = 65,536
+no of networks in B class : (192 - 128) * 256 = 16,384
+
+5th network in C class : 192.0.4
+257th IP in 5th network : there is no 257 IP in the fifth network.
+no. of hosts in 5th network : 256
+no. of networks in C class : (224-192)*256*256 = 20,97,152
+-------------------------------------------------------------------
+
+Reserved IPs:
+class D and E are reserved classes
+A class 0, 127 series (for loopback) always active connection.
+B class 169.254.0.0 to 169.254.255.255 is reserved. Automatic Private IP Addressing (APIPA)
+DHCP (Dynamic Host Configuration Protocol) - server - IP server --- this server provides IP addresses to connect to the Internet.
+
+-1st IP in any network is called network ID (e.g., 192.168.10.0) it will be considers as invalid, so we should not use the first IP of network.
+-last IP of any network is called broadcast id, it is also not usable (invalid), we should not use the last IP of network.
+-first and last IP of network is reserved IPs.
+
+10.0.0.1 ---> first IP of the network 10
+10.255.255.254 ---->last IP of the network 10
+
+10.0.0.0 ---> network ID
+10.255.255.255 ---> broadcast ID
+
+----------------------------------------------------------------
+Task:
+Class B 
+257th network : 129.0.0.0
+network ID : 129.0.0.0
+broadcast ID : 129.0.255.255
+258th usable id : 129.0.1.2
+last usable ID : 129.0.255.254
+----------------------------------------------------------------
+
+all the usable IP addresses are catogerise into 
+-Public IP
+-Private IP
+
+RFC1918 - Private IP address range
+10.0.0.0 to 10.255.255.255
+172.16.0.0 to 172.31.255.255
+192.168.0.0 to 192.168.255.255
+
+remaining all ranges are public ID ranges
+
+
+Subnet mask / prefix length
+255.0.0.0        /8   (8 network bits)
+255.255.0.0      /16
+255.255.255.0    /24
+0 ---> represent host bits
+
+classful IP addressing - default subnet mask or default prefix length.
+
+Subnetting 
+1. reduce wastage of ip addresses
+2. increase security
+3. reduce broadcast
+
+suppose a small company hier 30 employes 30 computers are required for each employe
+requirement - 30
+nearest value - 2^5 = 32
+writing new subnet mask
+255.255.255.0 - 256 IPs      /24
+255.255.255.00000000
+255.255.255.11100000
+255.255.255.224              /27  (new subnet mask)
+
+no. of hosts ---> 2^h = 2^5 = 32
+no. of network ---> 2^n = 2^3 = 8
+writing the range - 2^h = 32
+192.168.10.0 - 132.168.10.31
+192.168.10.32 - 192.168.10.63
+192.168.10.64 - 192.168.10.95
+192.168.10.96 - 192.168.10.127
+192.168.10.128 - 192.168.10.159
+192.168.10.160 - 192.168.10.191
+192.168.10.192 - 192.168.10.223
+192.168.10.224 - 192.168.10.255
+
+192.168.10.1  --- 192.168.10.35
+         255.255.255.0
+this two IPs will ping as they are in same network
+
+192.168.10.1  --- 192.168.10.35
+        255.255.255.224
+this two IPs will not ping as they are in different network (different subnets)
+
+---------------------------------------------------------------
+Task:
+requirement - 10
+nearest value - 2^4 = 16
+writing new subnet mask
+255.255.255.0 - 256 IPs      /24
+255.255.255.00000000
+255.255.255.11110000
+255.255.255.240              /28  (new subnet mask)
+
+no. of hosts ---> 2^h = 2^4 = 16
+no. of network ---> 2^n = 2^4 = 16
+writing the range - 2^h = 16
+192.168.10.0 - 192.168.10.15
+192.168.10.16 - 192.168.10.31
+192.168.10.32 - 192.168.10.47
+192.168.10.48 - 192.168.10.63
+192.168.10.64 - 192.168.10.79
+192.168.10.80 - 192.168.10.95
+192.168.10.96 - 192.168.10.111
+192.168.10.112 - 192.168.10.127
+192.168.10.128 - 192.168.10.143
+192.168.10.144 - 192.168.10.159
+192.168.10.160 - 192.168.10.175
+192.168.10.176 - 192.168.10.191
+192.168.10.192 - 192.168.10.207
+192.168.10.208 - 192.168.10.223
+192.168.10.224 - 192.168.10.239
+192.168.10.240 - 192.168.10.255
+
+16 hosts per network
+total 16 network
+
+
+Req - 60 ips
+Requirement: 60
+Nearest value: 2^6=64
+new subnet mask:
+255.255.255.0 /24
+255.255.255.00000000
+255.255.255.11000000
+255.255.255.192 /26
+  no of hosts=2^h =2^6=64
+  no.of networks=2^n=2^2=4
+  writing the ranges:2^h=2^6=64
+  192.168.10.0 - 192.168.10.63
+  192.168.10.64 - 192.168.10.127
+  192.168.10.128 - 192.168.10.191
+  192.168.10.191 - 192.168.10.255                     
+
+  take 3rd network:                                          #172.168.0.147
+  192.168.10.128
+  overall ips: 64
+  network id : 192.168.10.128
+  broadcast id: 192.168.10.191
+  usable ips:62
+  1st usable: 192.168.10.129
+  last usable:192.168.10.190
+
+
+Requirement -> 1000
+Since class C having only 255 we need B class
+2^10 = 1024
+Default subnet -> 255.255.0.0
+255.255.00000000.00000000
+255.255.11111100.00000000
+The required subnet 255.255. 252.0   /22
+new subnet mask is : 255.255.252.0   /22
+no of hosts - 2^10 = 1024
+no of networks - 2^6 =64 
+range is - 1024
+172.10.0.0 - 172.10.3.255
+172.10.4.0 - 172.10.7.255
+172.10.8.0 - 172.10.11.255
+172.10.12.0 - 172.10.15.255
+...
+...
+1024 hosts per network
+total 64 network
+
+
+requirement -> 2000
+We need to use B class as the requirement exceeds 256
+nearest value to 2000
+2^11 = 2048
+default subnet -> 255.255.0.0
+255.255.00000000.00000000
+new subnet
+255.255.11111000.00000000
+the required subnet : 255.255.248.0    /21
+no of hosts - 2^11 = 2048
+no of networks - 2^5 = 32
+range is - 2048
+172.10.0.0 - 172.10.7.255
+172.10.8.0 - 172.10.15.255
+172.10.16.0 - 172.10.23.255
+172.10.24.0 - 172.10.31.255
+172.10.32.0 - 172.10.39.255
+172.10.40.0 - 172.10.47.255
+...
+...
+2048 hosts per network
+total 32 network
+
+How to select the correct class?
+	if requirement is <256 then C class.
+	if requirement is >256 and <65536 then B class.
+	if requirement is >65536 then A class.
+
+
+
+Q. 172.22.0.0 /25
+default subnet : 255.255.00000000.00000000
+new subnet : 255.255.11111111.10000000   /25
+no of hosts - 2^7 = 128
+no of networks - 2^9 = 512
+range is - 128
+172.22.0.0 - 172.22.0.127
+172.22.0.128 - 172.22.0.255
+172.22.1.0 - 172.22.1.127
+172.22.1.128 - 172.22.1.255
+...
+...
+128 hosts per subnet
+total 512 subnets
+
+
+Q. 192.168.190.0     255.255.255.252?
+default subnet 255.255.255.0
+given subnet 255.255.255.11111100
+no of hosts - 2^2 = 4
+no of networks - 2^6 = 64
+range is - 4
+192.168.190.0 - 192.168.190.3
+192.168.190.4 - 192.168.190.7
+...
+...
+4 hosts per subnet
+total 64 subnets
+
+
+--------------------------------------------
+
+launch ec2 instance - default VPC
+enable ICMP
+connect to SSH
+vpc - internet gateway
+internet gateway of defalut vpc - detach
+connect SSH
+
+--------------------------------------------------------
+Assignment task:
+
+259th usable IP of 172.17.0.0 /23 network
+default Subnet
+255.255.0.0
+255.255.11111110.00000000 /23
+first usable ip  of 172.17.0.0 --> 172.17.0.1
+second usable ip is ---> 172.17.0.2
+...
+255th usable ip is ---> 172.17.0.255
+256th usable ip is ---> 172.17.1.0
+...
+259th usable ip is ---> 172.17.1.2
+...
+509th usable ip is ---> 172.17.1.253
+510th usable ip is ---> 172.17.1.254
+511th usable ip is ---> 172.17.1.255
+----------------------------------------------------------
+Datacenter Ops-realtime scenario
+
+New South Wales (NSW): 6 million = 6,000,000
+total IPs = 6000000 + 20% of 6000000
+          = 7200000
+nearest value to the 7200000 in terms of 2^h = 2^23 = 8388608.
+here we need to use A class because requirement is >= 65536.
+default subnet 255.0.0.0
+new subnet 255.10000000.00000000.00000000/9
+10.1.0.0/9
+
+Victoria (VIC): 4 million  = 4,000,000
+total IPs = 4000000 + 20% of 4000000
+		  = 4800000
+nearest value to the 4800000 in terms of 2^h = 2^23 = 8388608.
+
+
+Storage devices
+floppies, CD, DVD, pen drives, tape drives, hdd, sdd
+HDD - hard disk drive - older
+SSD - solid state drive - newer
+7200 rpm
+semiconductor tech
+IOPS - Input Output Operations per second 
+
+AWS storage options: Block storage vs Object storage
+Block storage: EBS(elastic block storage), EFS, FSx for Windows File Server, FSx for Lust.
+Object storage: S3(simple storage device), S3 Glacier, S3 Glacier Deep Archive, S3 Intelligent-T.
+
+Elastic Block Store
+Volumes Min: 1 GiB, Max: 16584 GiB. The value must be an integer.
+
+snapshot - backup
+snapshot are used to create backups
+	application server
+	database server
+EBS - EBS(Elastic block storage) is a block storage device that you can attach to your EC2 instances.
+--> block storage
+--> object storage - AWS S3
+SSS = simple storage service
+unlimited storage
+
+inward connection to the cloud -> free
+outward connection to the cloud -> paid
+
+S3 - stores tires - unlimited
+S3 standard - daily
+S3 IA
+S3 One Zone IA
+S3 Glacier - less expensive - 2 hrs
+S3 Glacier Deep Archive - it takes 5 hrs
+S3 snow family - migrating
+	S3 snowball - TB to PDs of data can be migrated
+	S3 snowmobile - PBs to EBs of data can be migrated
+
+------------------------------------------------------------------
+Buckets
+- S3 buckets are the containers for objects
+- Bucket names must be globally unique
+- Bucket names must be between 3 and 63 characters long
+- Bucket names can contain lowercase letters, numbers, and dashes
+- Bucket names must not start or end with a dash
+- Bucket names must not contain consecutive dashes
+- Bucket names must be unique within an AWS region
+- Bucket names are not case sensitive
+- Bucket names can be changed
+- Bucket names can be deleted
+- Bucket names can be shared with other AWS accounts
+- Bucket names can be used to create DNS records
+
+creating bucket refer to bucket.pdf
+
+changing the content of the index file.
+	-upload changed index file and verify link for changes
+	-check versions if available
+	-enable bucket versioning
+	-change the index file again
+	-upload the changed file
+	-go to version you can see versions
+	-click on each version to see change
+	-delete current version to make pervious version default
+
+
+cloudshell - pre-authenticated bash
+cloud9 - AWS ide (integrated development shell)
+AWS SDK for pythin - boto3
+
+
+-------------------------------------------------------------------
+AWS security
+
+IAM - AWS Identity and Access Management (IAM) is a web service that enables Amazon Web Services (AWS) customers to 
+manage users and user permissions in AWS. With IAM, you can centrally manage users, security credentials such 
+as access keys, and permissions that control which AWS resources users can access.
+
+
+
+
+-------------------------------------------------------------------
+Problem:
+
+you started your shift and there is an unusually high volume of customer contacts.
+You take your first case. A customer opens critical priority case reporting a 
+slow server where overall service performance is heavily degraded. Specifically, it has gone from
+full to half speed.You learn that due to their degraded service, their customers 
+are having difficulty accessing their online services. You are currently in a chat session 
+with the customer. Please note that at Amazon servers are reffered to as "instances"
+
+---------------------------------------------------------------------
+
+
+
+AWS databases - maanged services
+two types of databsed:
+	- relational databases - RDS
+	- non-relational databases - DynamoDB
+software available for amazon RDB DB instance
+- MySQL
+- Oracle
+- PostgreSQL
+- Microsoft SQL Server
+- Amazon Aurora
+
+
+how to create RDS(Realtional Database Service) instance:
+	go to rds
+	database
+	create database
+	standared create
+	MySQL
+	default version
+	free tier environment
+	name : my-db or anything
+	admin  or anything
+	self managme...
+	password 
+	.
+	.
+	20GB
+	don't connect to ec2
+	default vpc
+	public access -yes
+	security group - default
+	port - 3306
+	password authentication
+	create database
+
+
+	-select the database -> goto actions -> click set EC2 connection
+	-chhose the instance  -> set
+
+	-click on the name database you created
+	-copy the endpoint link (it would look like "my-database.c1f66qjmw2md.us-east-1.rds.amazonaws.com")
+
+	command to update the ubuntu packages:
+		sudo apt-get update
+	command to install mysql-client in ubuntu server:
+		sudo apt-get install mysql-client
+	check the version of the mysql-client-installed:
+		mysql --version
+	command to connect to the mysql server:
+		mysql -h <host RDS endpoint link> -u <username> -p
+		e.g., mysql -h my-database.c1f66qjmw2md.us-east-1.rds.amazonaws.com -u admin -p
+
+
+	-install and open MySQL Workbench 8.0 CE
+	-click on the plus(+) icon beside MySQL Connections
+		-give name to Connecton Name
+		-past the endpoint link in the Hostname
+		-username : admin
+		-password - store in vault - give the database password
+		-click ok
+
+	-click on the tab created in the botton of the mysql connections
+	-it will give some error
+	-go to the database in aws
+	-click on the database name
+	-go to security groups
+	-click on the default (sg-Oe876c57bb26400f7)     EC2 Security Group - Inbound        sg-Oe876c57bb26400f7
+	-a new tab will opened in the browser
+	-click on edit enbound rules -> add rules 
+	-select MYSQL/Aurora -> 0.0.0.0/0 -> save rules
+	-now goto the workbench and click on the button tab it will open
+
+	command to create a database in mysql server:
+		create database <database_name>;
+	command to create a table in mysql server:
+		create table <table_name> (<column_name> <data_type>);
+	command to insert data into the table:
+		insert into <table_name> values (<column1>, <column2>, <column3>, ...
+	command to select data from the table:
+		select * from <table_name>;
+
+
+
+
+
+-----------------------------------------------------------------------
+API and API gateway
+
+development
+postman API
+
+request 
+	GET
+	PUT - database - cannot create
+	POST - create
+
+response
+
+
+status codes + XXX
+
+API gateway
+user ---> website ---> api gateway
+create API
+create resources
+create methods
+deplay stage
+
+
+-----------------------------------------------------------
+Lambda - Serverless service
+automation, scripts -> trigger particular task
+script/code - lambda function
+trigger - when to execute
+
+suppose we have a S3 bucket and when we put any new object (say image) then
+we can set a lambda function that will copy the new object (image) into a 
+new S3 bucket.
+S3 -> image -> lambda -> another S3 bucket copy
+
+IAM role - permission to resource
+
+-----------------------------------------------------------
+
+Docker
+command to install docker in ubuntu server
+	apt-get install docker.io
+	docker --version    #to see the version installed
+
+container image - alpine, lib/bin, appli
+container - running env of image
+	
+	running container - docker ps
+	running images - docker images
+	docker pull httpd
+
+	root@ip-172-31-18-8:/home/ubuntu# docker images
+	REPOSITORY   TAG       IMAGE ID       CREATED       SIZE
+	httpd        latest    19c71fbb7140   2 weeks ago   148MB
+
+	docker run <image name> (e.g., httpd)
+
+	docker stop <container_id_or_name>
+	docker start <container_id_or_name>
+	docker ps -a     #lists all Docker containers on your system
+
+	assign the port number to the docker httpd
+	docker run -d -p 80:80 httpd
+
+	copy the zip folder to the /home/ubuntu/ directory
+	apt-get install zip
+	unzip /home/ubuntu/coffee-shop.zip
+
+	docker cp <source-location> <container-id>:<destination-location>
+
+	index.html      
+	docker cp /home/ubuntu/index.html c6c22231110f:/usr/local/apache2/htdocs
+	docker cp /home/ubuntu/assets c6c22231110f:/usr/local/apache2/htdocs
+
+	to see the contents of the container:
+	docker exec -it c6c22231110f /bin/bash
+
+	hosting another website on new container:
+	
+
+	docker run -d -p 8080:80 --name <anyname> httpd
+	goto security groups and add inbound rule - Type : Custom TCP - port range : 8080
+	copy the files and folder to the /usr/local/apache2/htdocs  of the new httpd container
+	e.g.,
+	docker cp /home/ubuntu/3-col-portfolio/css d0ff411d60bb:/usr/local/apache2/htdocs
+	docker cp /home/ubuntu/3-col-portfolio/index.html d0ff411d60bb:/usr/local/apache2/htdocs
+	docker cp /home/ubuntu/3-col-portfolio/js d0ff411d60bb:/usr/local/apache2/htdocs
+
+
+
+	$ docker login
+	docker commit <container-name> <username>/app-name:version
+	docker stop <container-name>
+	docker container prune
+	docker images				#to see the images
+	docker rmi htppd			#to remve the image
+	docker ps
+	docker run -d -p8080:80 <username>/app-name
+	docker push <username>/app-name
+		e.g., docker push pareshmahato/portfolio:1.0
+	docker stop <container>
+	docker rmi <username>/app-name
+	docker pull <username>/app-name
+	docker run -d -p8080:80 <username>/app-name				#to run the web server
+
+
+	
+	Dockerfile: it automates the process
+	ECR: Elastic container registry - AWS
+
+
+	docker network creating:
+	docker network create mongo-network
+	docker network ls
+	docker run -d -p 27017:27017 --name mongo --net mongo-network -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=pass
+	mongo
+	docker run -d -p 27017:27017 --name mongo --net mongo-network -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=pass mongo
+	hash value
+	docker logs <hash_value>
+	docker pull mongo-express
+
+	docker run -d -p 8081:8081 --name mongo-express --net mongo-network -e ME_CONFIG_MONGODB_ADMINUSERNAME=admin -e ME_CONFIG_MONGODB_ADMINPASSWORD=pass -e ME_CONFIG_MONGODB_SERVER=mongo mongo-express
+	
+
+
+
+sql - injection
+xss - cross site scripting
+dos - denial of service
+ddos - distributed denial of service
+
+
+waf - web application firewall
+--load balancer
+Russia -- waf
+
+
+auto scaling - AWS SNS (Simple notification service)
+notify about the events to subscribers
+-email
+-sms
+-push notification
+
+
+task:
+launch EC2 instance with application
+create image
+create SNS Topics ans subscriptions
+create autoscaling launch configuration
+
+
+
+run stress test:
+apt-get install stress
+stress -c 1
+kill <process-id>    	[to kill the process]
+
+
+vertical scaling
+increase -- scale out
+decrease instance
+
+test:
+	Hybrid cloud
+	SaaS
+	Elasticity
+	Durability
+	Availability
+	AWS Global Infrastructure
+	IAM policy
+	IAM Role
+	AWS Shared Responsibility Model
+	VPC and VPC components
+	EC2
+	LAMBDA
+	Elastic Beanstalk
+	Elastic Block Storage
+	s3
+	S3 Glacier
+	RDS
+	DynamoDB
+	Elastic Loadbalancing
+	Auto Scaling
+	Amazon CloudWatch
+	AWS SDK
+	AWS CLI
+	API Gateway
+	Docker container
+	AWS ECR
+	Elasticache
+	Redis
+	SNS
+	Step Function
+
+TASK:
+network 172.16.0.0
+requirement 200
+4th network - subnet
+5th network - subnet
+launch ec2 in 4th subnet
+launch ec2 instance without public IP in 5th subnet
+
+requirement = 200
+nearest value = 2^h = 2^8 = 256
+default subnet mask = 255.255.0.0
+default subnet mask = 255.255.00000000.00000000/16
+new subnet mask = 255.255.11111111.00000000/24
+no of hosts and no. of networks
+no.of hosts = 2^8 = 256
+no.of networks = 2^8 = 256
+writing the hosts ranges
+172.16.0.0	-	172.16.0.255
+172.16.1.0	-	172.16.1.255
+172.16.2.0	-	172.16.2.255
+172.16.3.0	-	172.16.3.255	-> 4th network
+172.16.4.0	-	172.16.4.255	-> 5th network
+172.16.5.0	-	172.16.5.255	
+...
+172.16.255.0	-	172.16.255.255
+
+connecting instance without public ip:
+firstly connect a instance which have public IP.
+copy the pem file of the private ec2 into the Public ec2 launched 
+ssh -i <pem_file_of_the_private_ec2> ubuntu@<private_ec2_ip>
+
+
+NAT Gateway
+
+
+
+AWS Cognito:
+
+
+
+
+
+Task:
+A developer of a company needs a ubuntu updated server to deploy a company related web updated
+server to deploy a company related web application. As per the company policy the key files 
+should not be shared to any user of orgainization. The cloud adiministrator is taked to provide 
+the access to developer for a ubuntu ec2 instance fulfilling above requirements.
+
+ubuntu server
+#!/bin/bash
+sudo su
+apt-get update -y
+apt-get install apache2 -y
+systemctl start apache2
+chmod 777 /var/www/html
+
+
+
+
+
+
+free cerificate for https ssl:
+letsencrypt (free) -> 90 days
+openssl (free)
+godaddy (paid)
+
+setps: CA -> Pay -> ssl ->
+firstly you need to generate a private key(.pem)
+upload this private key godaddy(CA)
+2 hours to genetate 
+certificate -> CA (.crt)
+
+download the certificate -> CA (.crt)
+download the private key -> CA (.pem)
+download the intermediate certificate -> CA (.crt)
+
+standalone server
+server itself -> ssl
+mywebsite.com -> ip address -> ssl -> https
+
+commands to get free certificate:
+apt-get install certbot python3-certbot-apache
+certbot --apache
+it will ask email to receiver receive renewal for cerificate
+enter you domain name and press enter
+systemctl restart apache2
+
+
+
+
+----------git github---------------
+version control system
+
+create ssh key for github
+ssh-keygen -t ed25519 -C "your_email@example.com"
+e.g., ssh-keygen -t ed25519 -C "pareshmahato31@gmail.com"
+e.g., ssh-keygen -t ed25519 -C "22a91a6141@aec.edu.in"
+press enter enter enter the ssh key will be stored in 
+
+/c/Users/Paresh/.ssh/id_ed25519
+
+id_ed25519 open this file with notepad and copy the entire text
+
+got to ur github account 
+go to settings
+click on SSH and GPG key
+click on new SSH key
+paste the key
+click on add SSH key
+
+create an empty REPOSITORY
+go to repository
+click on code
+click on SSH and copy the url  e.g.,(git@github.com:paresh31/drive-ready-2026.git)
+
+in git BASH terminal type the below commad
+git clone git@github.com:paresh31/drive-ready-2026.git
+type yes
+
+Paresh@ASUS MINGW64 ~
+$ cd drive-ready-2026
+
+Paresh@ASUS MINGW64 ~/drive-ready-2026 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+nothing to commit, working tree clean
+
+Paresh@ASUS MINGW64 ~/drive-ready-2026 (main)
+$ ls -la
+total 33
+drwxr-xr-x 1 Paresh 197610  0 Oct 17 10:50 ./
+drwxr-xr-x 1 Paresh 197610  0 Oct 17 10:49 ../
+drwxr-xr-x 1 Paresh 197610  0 Oct 17 10:57 .git/    ---> (.git means tracking is on and ready to make changes)
+-rw-r--r-- 1 Paresh 197610 18 Oct 17 10:50 README.md
+
+working directory ---git add---> staging area ---git commit---> repository ---git push---> repository
+				<---git reset---                                           <---git pull---
+
+Paresh@ASUS MINGW64 ~/drive-ready-2026 (main)
+$ vim file
+
+Paresh@ASUS MINGW64 ~/drive-ready-2026 (main)
+$ git add file
+warning: in the working copy of 'file', LF will be replaced by CRLF the next time Git touches it
+
+Paresh@ASUS MINGW64 ~/drive-ready-2026 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   file
+
+Paresh@ASUS MINGW64 ~/drive-ready-2026 (main)
+$ git commit -m "this is sample file" file
+
+Paresh@ASUS MINGW64 ~/drive-ready-2026 (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+$ git log
+commit 5713ad04aa9ba52ab67f1f1b581446ecdbd56078 (HEAD -> main)
+Author: Paresh Kumar Mahato <22a91a6141@aec.edu.in>
+Date:   Thu Oct 17 11:20:14 2024 +0530
+
+Paresh@ASUS MINGW64 ~/drive-ready-2026 (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 304 bytes | 304.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:paresh31/drive-ready-2026.git
+   6a3cf6e..5713ad0  main -> main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
